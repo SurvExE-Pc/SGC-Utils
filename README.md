@@ -1,7 +1,7 @@
 # SGC-Utils
 Current version: 4.0
 
-a stupid scratch extension I made.
+a turbowarp extension I made.
 
 DO NOT SUBMIT BUG REPORTS FOR AN OLDER VERSION
 
