@@ -2,6 +2,7 @@
  * VERSION 5.0
  * Originally created by https://scratch.mit.edu/users/0znzw/
  * This file is available under an informal "use with credit" license.
+ * DO NOT REMOVE THIS COMMENT
  */
 (function(Scratch) {
     'use strict';
@@ -4300,7 +4301,7 @@
       }, {}, [10])(10)
     });
     /* eslint-enable */
-    //download.js v4.2, by dandavis; 2008-2016. [CCBY2] see http://danml.com/download.html for tests/usage
+    /*! download.js v4.2, by dandavis; 2008-2016. [CCBY2] see http://danml.com/download.html for tests/usage */
     const rawDownload = (function() {
         const root = window;
       function download(data, strFileName, strMimeType) {
@@ -5309,7 +5310,7 @@
     }, 1000);
     Scratch.extensions.register(new SGCUtils());
   })(Scratch);
-  /*
+  /*!
   LocalStorage extension: https://extensions.turbowarp.org/local-storage.js (TURBOWARP)
   Encoding extension: https://extensions.turbowarp.org/encoding.js (-SIPC-)
   Coupler's extension: https://extensions.turbowarp.org/true-fantom/couplers.js (TrueFantom)
@@ -5348,17 +5349,17 @@
   
   This extension was only made to have useful blocks all in one extension to not be so messy with 500 extensions.
   */
-  /* Download.js license
-  //download.js v4.2, by dandavis; 2008-2016. [CCBY2] see http://danml.com/download.html for tests/usage
-  // v1 landed a FF+Chrome compat way of downloading strings to local un-named files, upgraded to use a hidden frame and optional mime
-  // v2 added named files via a[download], msSaveBlob, IE (10+) support, and window.URL support for larger+faster saves than dataURLs
-  // v3 added dataURL and Blob Input, bind-toggle arity, and legacy dataURL fallback was improved with force-download mime and base64 support. 3.1 improved safari handling.
-  // v4 adds AMD/UMD, commonJS, and plain browser support
-  // v4.1 adds url download capability via solo URL argument (same domain/CORS only)
-  // v4.2 adds semantic variable names, long (over 2MB) dataURL support, and hidden by default temp anchors
-  // https://github.com/rndme/download
+  /*! Download.js license
+  download.js v4.2, by dandavis; 2008-2016. [CCBY2] see http://danml.com/download.html for tests/usage
+  v1 landed a FF+Chrome compat way of downloading strings to local un-named files, upgraded to use a hidden frame and optional mime
+  v2 added named files via a[download], msSaveBlob, IE (10+) support, and window.URL support for larger+faster saves than dataURLs
+  v3 added dataURL and Blob Input, bind-toggle arity, and legacy dataURL fallback was improved with force-download mime and base64 support. 3.1 improved safari handling.
+  v4 adds AMD/UMD, commonJS, and plain browser support
+  v4.1 adds url download capability via solo URL argument (same domain/CORS only)
+  v4.2 adds semantic variable names, long (over 2MB) dataURL support, and hidden by default temp anchors
+  https://github.com/rndme/download
   */
-  /* JSZip license
+  /*! JSZip license
   JSZip v3.10.1 - A JavaScript class for generating and reading zip files
   <http://stuartk.com/jszip>
   (c) 2009-2016 Stuart Knightley <stuart [at] stuartk.com>
@@ -5391,3 +5392,4 @@
   IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   */
+  
