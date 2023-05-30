@@ -1,5 +1,5 @@
 This is my first "big" extension and might have bugs,
-If it does please report it to the fourm page
+If it does please report it to the fourm page or my scratch acc.
 
 
 Fourm Page: gallery.ashmi.unaux.com
