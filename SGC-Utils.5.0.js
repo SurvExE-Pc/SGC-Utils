@@ -4302,6 +4302,7 @@
     /* eslint-enable */
     //download.js v4.2, by dandavis; 2008-2016. [CCBY2] see http://danml.com/download.html for tests/usage
     const rawDownload = (function() {
+        const root = window;
       function download(data, strFileName, strMimeType) {
         var self = window, // this script is only for browsers anyway...
           defaultMime = "application/octet-stream", // this default mime also triggers iframe downloads
@@ -5243,7 +5244,7 @@
       }
       //FILES
       download(args) {
-        rawDownload(args.filedata, args.filename)
+        rawDownload(args.text, args.file)
       }
       newZip(args) {
         var zip = new JSZip();
@@ -5390,4 +5391,3 @@
   IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
   CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   */
-  
