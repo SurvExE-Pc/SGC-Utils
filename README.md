@@ -1,5 +1,5 @@
 # SGC-Utils
-Current version: 4.0
+Current version: 5.0
 
 a turbowarp extension I made.
 
@@ -12,6 +12,7 @@ most notable features:
 
 <hr>
 Versions 1.0-3.0 have some weird bugs, and do not abide by the turbowarp guidlines.
+Version 5.0 and above broke compatibility between versions 1.0 - 4.0
 <hr>
 <pre>
 Features:
@@ -40,7 +41,7 @@ Footers
 ---
 <pre>
 <h5>f1:</h5>
-md5, sha1, sha128, sha256, sha512, 32Bit Fn-1a, 
+md5, sha1, sha128(broken), sha256, sha512, 32Bit Fn-1a, 
 
 <h5>f2:</h5>
 Unicode requires the string to be at least 2 characters long, and only encodes the first character.
