@@ -1,0 +1,21 @@
+TAKEN FROM https://scratch.mit.edu/discuss/topic/681864/ : "Section 3.3 - Keeping to TurboWarp Formatting."
+
+If you're programming your extension all for yourself, TurboWarp formatting won't have too much of an affect on your code.
+However, if you want to submit your extension to the Official TurboWarp Unsandboxed Extension Gallery, 
+there's a few rules you have to follow.
+
+For one, most if not all copyrighted material is usually difficult to add to an extension, 
+there's some stuff you can fill out to gain access to it, however that's legal stuff and legal stuff is boring.
+Basically, stay away from copyrighted material or code snippets if at all possible.
+
+As for the code itself, GarboMuffin prefers if you use semicolons and double spaces
+(which is absolutely preposterous but it what it is I guess).
+
+GarboMuffin will also usually turn down extensions that can be deemed dangerous, such as two extensions that are currently in limbo,
+Local Storage and JavaScript Execution. As long as your extension isn't dangerous to the user, you shouldn't have to worry about that.
+
+Any libraries that the extension uses must be embedded into the code of the extension,
+and the extension should be able to work on all browsers.
+
+Extensions must not return empty in a boolean or reporter.
+An empty string (such as ‘ ’) is acceptable, but it needs to return something.
