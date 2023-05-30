@@ -3,5 +3,5 @@ a stupid scratch extension I made.
 
 most notable features:
    AES+RSA Encryption
-   <hr>
+   <br>
    Hashing beyond MD5.
