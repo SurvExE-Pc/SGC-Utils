@@ -2,6 +2,7 @@
 Current version: 4.0
 
 a stupid scratch extension I made.
+
 DO NOT SUBMIT BUG REPORTS FOR AN OLDER VERSION
 
 most notable features:
