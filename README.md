@@ -1,5 +1,8 @@
 # SGC-Utils
+Current version: 4.0
+
 a stupid scratch extension I made.
+DO NOT SUBMIT BUG REPORTS FOR AN OLDER VERSION
 
 most notable features:
    AES+RSA Encryption
@@ -9,9 +12,52 @@ most notable features:
 <hr>
 Versions 1.0-3.0 have some weird bugs, and do not abide by the turbowarp guidlines.
 <hr>
-Features:
 <pre>
+Features:
 <ul>
-<li>test</li>
+<li>AES+RSA(f4) Encryption and decryption.</li>
+<li>Hashing with md5, sha1, etc(f1)</li>
+<li>Encoding with unicode(f2), base64 and binary</li>
+<li>My own encoding (f3)</li>
+<li># ^ #</li>
+<li>Exactly equals, and boolean coupler</li>
+<li>newline character</li>
+<li>Random length digit</li>
+<li>if else, string statment</li>
+<li>Localstorage support</li>
+<li>Link Opening/Redirection</li>
+<li>Special broadcasts(f5)</li>
+<li>(f6) Deleting sprites with block</li>
+<li>Stage only variables</li>
 </ul>
+(nonstandard hashes are not listed)
+</pre>
+
+<hr>
+
+Footers
+---
+<pre>
+<h5>f1:</h5>
+md5, sha1, sha128, sha256, sha512, 32Bit Fn-1a, 
+
+<h5>f2:</h5>
+Unicode requires the string to be at least 2 characters long, and only encodes the first character.
+Cloud is an option but is currently broken, so use Numerical Encodings instead.
+
+<h5>f3:</h5>
+The I36 Encoding is custom, and has 0 support for floating point numbers
+
+<h5>f4:</h5>
+The RSA Encryption method requires you to run the "Setup Librarys" block to work.
+
+<h5>f5:</h5>
+Special broadcasts are:
+<ul>
+<li>Onetime (runs 1 time, can be reset)</li>
+<li>everysecond (runs 1 time a second)</li>
+</ul>
+
+<h5>f6:</h5>
+The deleting sprites block in this has 0 confirmation, and was made as an extra block for Shovel-Utils
 </pre>
