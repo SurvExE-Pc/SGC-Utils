@@ -1,5 +1,5 @@
 # SGC-Utils
-Current version: 5.0
+Current version: 6.0
 
 a turbowarp extension I made.
 
@@ -53,6 +53,7 @@ The I36 Encoding is custom, and has 0 support for floating point numbers
 
 <h5>f4:</h5>
 The RSA Encryption method requires you to run the "Setup Librarys" block to work.
+RSA HAS BEEN HIDDEN AS IT GOES AGAINST TURBOWARP GUIDLINES BUT IS STILL THERE DUE TO COMPATIBILITY ISSUES
 
 <h5>f5:</h5>
 Special broadcasts are:
