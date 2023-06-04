@@ -1,7 +1,7 @@
 # 0tils
 (rebranded but kept repo url and internal ids the same for compatibility)
 
-Current version: 8.2
+Current version: 8.5
 
 a turbowarp extension I made.
 
