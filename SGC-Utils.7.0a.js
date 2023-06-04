@@ -579,7 +579,7 @@
   const zips = [];
   const stageVariablesDisplay = ['my variable'];
 
-  const allowDuplicates = !urlParams.has("0tils-enableDuplicates");
+  const allowDuplicates = urlParams.has("0tils-disableDuplicates");
   const allowUnsafe = !urlParams.has("0tils-allowUnsafe");
 
   class SGCUtils {
