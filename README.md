@@ -17,3 +17,5 @@ most notable features:
 Versions 1.0-3.0 have some weird bugs, and do not abide by the turbowarp guidlines.
 Version 5.0 and above broke compatibility between versions 1.0 - 4.0
 Version 6.0 broke compatibility with 5.0
+<hr>
+(FEATURES+FOOTERS)[https://github.com/SurvExe1Pc/SGC-Utils/blob/abfec4313186264de13f5ce87edd767dbe39d901/DETAILS.md]
