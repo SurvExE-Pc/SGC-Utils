@@ -791,6 +791,7 @@
           opcode: "emptyFunctionForLabels",
           blockType: "label",
           text: "Localstorage",
+          hideFromPalette: allowDuplicates
         }, {
           opcode: 'getLSitem',
           blockType: Scratch.BlockType.REPORTER,
