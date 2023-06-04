@@ -9,7 +9,7 @@ DO NOT SUBMIT BUG REPORTS FOR AN OLDER VERSION
 If you really need a bug fixed message me at @0znzw on scratch or email me(a_2oo@outlook.com).
 
 most notable features:
-   AES+RSA Encryption
+   AES Encryption
    <br>
    Hashing beyond MD5.
 
