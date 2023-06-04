@@ -46,12 +46,14 @@ Special broadcasts are:
 The deleting sprites block in this has 0 confirmation, and was made as an extra block for Shovel-Utils
 <h5>f783:</5>
 Some features have been hidden under URL paramaters.
-Most notably:
+Hidden features:
 <ul>
 <li>All the labels</li>
 <li>Exactly Equals</li>
 <li>Newline</li>
 <li>RSA</li>
 <li>LocalStorage</li>
+<li>#^#</li>
+<li>Boolean coupler</li>
 </ul>
 </pre>
