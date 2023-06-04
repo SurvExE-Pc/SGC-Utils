@@ -16,6 +16,7 @@ Features:
 <li>Special broadcasts(f5)</li>
 <li>(f6) Deleting sprites with block</li>
 <li>Stage only variables</li>
+<li>Deleting costumes</li>
 </ul>
 (nonstandard hashes are not listed)
 </pre>
