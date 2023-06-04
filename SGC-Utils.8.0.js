@@ -996,6 +996,11 @@
             }
           }
         }, {
+          opcode: "emptyFunctionForLabels",
+          blockType: "label",
+          text: "Library Imports",
+          hideFromPalette: allowUnsafe
+        }, {
           hideFromPalette: allowUnsafe,
           opcode: 'Setup',
           blockType: Scratch.BlockType.COMMAND,
