@@ -13,7 +13,7 @@ most notable features:
    <br>
    Hashing beyond MD5.
    
-Was rejected so I give 0 fucks about formatting and best practices now.
+Was rejected so I give 0 flippers about formatting and best practices now.
 
 <hr>
 Versions 1.0-3.0 have some weird bugs, and do not abide by the turbowarp guidlines.
