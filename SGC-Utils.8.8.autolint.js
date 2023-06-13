@@ -580,12 +580,12 @@
   const allowDuplicates = !urlParams.has("0tils-enableDuplicates");
   const showParenSpam = urlParams.has("0tils-showParenSpam");
   const showLabels = !urlParams.has("0tils-showExtraLabels");
-  
+
   function addLPlabel(text) {
     if (showParenSpam) return `(${text}) `;
     return '';
   }
-  
+
   class SGCUtils {
     getInfo() {
       return {
@@ -608,7 +608,7 @@
           }, {
           opcode: 'doAES',
           blockType: Scratch.BlockType.REPORTER,
-          text: addLPlabel("AES")+'[mode] [data] with password: [pwd] and [bytes] bytes.',
+          text: addLPlabel("AES") + '[mode] [data] with password: [pwd] and [bytes] bytes.',
           arguments: {
             mode: {
               type: Scratch.ArgumentType.STRING,
@@ -631,7 +631,7 @@
           hideFromPalette: true,
           opcode: 'doRSA',
           blockType: Scratch.BlockType.REPORTER,
-          text: addLPlabel("RSA")+'[mode] [data] with key: [key].',
+          text: addLPlabel("RSA") + '[mode] [data] with key: [key].',
           arguments: {
             mode: {
               type: Scratch.ArgumentType.STRING,
@@ -981,7 +981,7 @@
         }, {
           opcode: 'download',
           blockType: Scratch.BlockType.COMMAND,
-          text: addLPlabel("RAW")+'download [text] as [file]',
+          text: addLPlabel("RAW") + 'download [text] as [file]',
           arguments: {
             text: {
               type: Scratch.ArgumentType.STRING,
@@ -999,7 +999,7 @@
         }, {
           opcode: 'deleteSpriteNoConfirm',
           blockType: Scratch.BlockType.COMMAND,
-          text: addLPlabel("ShovelUtils")+'Delete sprite [SPRITE] | No Confirmation',
+          text: addLPlabel("ShovelUtils") + 'Delete sprite [SPRITE] | No Confirmation',
           arguments: {
             SPRITE: {
               type: Scratch.ArgumentType.STRING,
@@ -1009,7 +1009,7 @@
         }, {
           opcode: 'deleteCostume',
           blockType: Scratch.BlockType.COMMAND,
-          text: addLPlabel("ShovelUtils")+'Delete costume [COSNAME] in [SPRITE]',
+          text: addLPlabel("ShovelUtils") + 'Delete costume [COSNAME] in [SPRITE]',
           arguments: {
             COSNAME: {
               type: Scratch.ArgumentType.STRING,
