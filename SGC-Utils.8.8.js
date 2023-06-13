@@ -1,12 +1,12 @@
 /*!
- * VERSION 8.6
+ * VERSION 8.8
  * Originally created by https://scratch.mit.edu/users/0znzw/ | Licenced Under the MIT License
  * DO NOT REMOVE THIS COMMENT
  */
 (function(Scratch) {
   'use strict';
   var _SGCUtils = {
-    version: '8.6',
+    version: '8.8',
     ids: {}
   };
   if (!Scratch.extensions.unsandboxed) {
