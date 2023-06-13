@@ -1427,8 +1427,8 @@
     //REDIRECTION
     async linkopen(args) {
       /*
-       I am confused, the point of this block was to allow more than the normal (open in new tab)
-       and (redirect this tab), I responded on github.
+      I am confused, the point of this block was to allow more than the normal (open in new tab)
+      and (redirect this tab), I responded on github.
       */
       if (args.target == "_self") {
         window.location.href = args.url;// eslint-disable-line
@@ -1456,6 +1456,7 @@
     newline() {
       return "\n";
     }
+  }
   setInterval(() => {
     const startedThreads = Scratch.vm.runtime.startHats('SGCUtils_whenReceived', {
       EVENT_OPTION: "every second"
