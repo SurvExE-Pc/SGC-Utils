@@ -6,7 +6,7 @@ Current version: 8.8
 a turbowarp extension I made.
 
 DO NOT SUBMIT BUG REPORTS FOR AN OLDER VERSION
-If you really need a bug fixed message me at @0znzw on scratch or email me(a_2oo@outlook.com).
+If you really need a bug fixed message me at @0znzw on scratch or email me.
    
 Being re-reviewd
 
