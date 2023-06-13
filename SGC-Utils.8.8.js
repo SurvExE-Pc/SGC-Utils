@@ -687,7 +687,7 @@
         }, {
           opcode: 'i36encoder',
           blockType: Scratch.BlockType.REPORTER,
-          text: addLPlabel("i36")+'[mode] [value] as type [type]',
+          text: '(i36) [mode] [value] as type [type]',
           arguments: {
             mode: {
               type: Scratch.ArgumentType.STRING,
