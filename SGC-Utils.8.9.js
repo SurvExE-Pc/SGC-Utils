@@ -1,12 +1,12 @@
 /*!
- * VERSION 8.8
+ * VERSION 8.9
  * Originally created by https://scratch.mit.edu/users/0znzw/ | Licenced Under the MIT License
  * DO NOT REMOVE THIS COMMENT
  */
 (function(Scratch) {
   'use strict';
   var _SGCUtils = {
-    version: '8.8',
+    version: '8.9',
     ids: {}
   };
   if (!Scratch.extensions.unsandboxed) {
@@ -1419,6 +1419,7 @@
       I am confused, the point of this block was to allow more than the normal (open in new tab)
       and (redirect this tab), I responded on github.
       */
+      if (!await Scratch.canOpenWindow(args.url)) return;
       if (args.target == "_self") {
         window.location.href = args.url;// eslint-disable-line
       }
